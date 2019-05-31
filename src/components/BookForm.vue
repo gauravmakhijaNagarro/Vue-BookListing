@@ -18,7 +18,6 @@ export default {
     },
     methods: {
         bookSubmit(bookTitle, bookAuthor) {
-            // $event.emit('addBook');
             this.$emit('addBook', bookTitle, bookAuthor);
         }
     }
